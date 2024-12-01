@@ -8,9 +8,9 @@ Much of the code it designed for the specific data, but the model architectures 
 
 ## Repository structure
 
-- analysis
-- evaluation
-- loader
-- models
-- preprocessing
-- train_evaluate
+- **analysis**: Provides tool for analysis and visualization of the data and results of experiments
+- **evaluation**: Evaluation metrics and tools to fetch results from trained and tested models
+- **loader**: Tools for loading the data as a PyTorch DataLoader and PyTorch Geometric Temporal Loader
+- **models**: Different model architectures
+- **preprocessing**: Initial preprocessing of large scale data and feature processing tools for training models
+- **train_evaluate**: Tools for data splitting, running hyperparameter-tuning and doing the final training and testing of the models
