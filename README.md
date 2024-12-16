@@ -6,6 +6,8 @@ The GNN architectures add to the GRU model by providing a graph convolutional la
 
 Much of the code it designed for the specific data, but the model architectures may be of use to others.
 
+Feel free to check out the [Thesis report here](https://github.com/frfa1/temporal-gnn-scalability/blob/main/GNN-Scalability-Thesis.pdf).
+
 ## Repository structure
 
 - **analysis**: Provides tool for analysis and visualization of the data and results of experiments
